@@ -1,7 +1,7 @@
 
 <script setup>
 import { ref } from 'vue'
-import '../asstets/style.css'
+import '../assets/style.css'
 
 const selectedWeek = ref(
   window.location.pathname === '/viikko2' ? '/viikko2' : '/'
